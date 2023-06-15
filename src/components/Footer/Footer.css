@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+.navbar-footer{
+    background-color: #191919;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    /* margin-top: 100px; */
+}
+
+.navbar-footer a {
+    font-family: 'DM Sans', sans-serif;
+    color: #a7a7a7;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.3;
+}
+
+.navbar-footer a:hover {
+    color: white;
+}
+
+.footer-line{
+    background-color: #42446E;
+    height: 2px;
+    opacity: 0.3;
+}
+
+.navbar-footer .logo:hover * {
+    fill: rgb(255, 187, 0);
+}
