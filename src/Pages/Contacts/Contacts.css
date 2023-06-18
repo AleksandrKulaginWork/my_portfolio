@@ -1,3 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap");
+
+
 .contacts{
     flex-grow: 1;
+    font-family: "DM Sans";
+    font-weight: 700;
+    line-height: 2;
+}
+
+.title{
+    letter-spacing: -1px;
+    color: #1e0e62;
+    text-transform: uppercase;
+}
+
+.contacts__text{
+    background: linear-gradient(90deg, #13b0f5 -2.06%, #e70faa 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contacts__line{
+    height: 2px;
+    width: 35%;
+    background-color: #1e0e62;
+}
+
+@media (min-width: 320px) {
+    .contacts__text{
+        font-size: 16px;}
+    .title{
+        font-size: 23px;
+    }
+}
+
+@media (min-width: 375px) {
+    .contacts__text{
+        font-size: 18px;}
+    .title{
+        font-size: 25px;
+    }
+
+}
+@media (min-width: 425px) {
+    .contacts__text{
+        font-size: 20px;}
+    .title{
+        font-size: 27px;
+    }
+}
+
+@media (min-width: 768px) {
+    .contacts__text{
+        font-size: 24px;}
+    .title{
+        font-size: 31px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .contacts__text{
+        font-size: 26px;}
+    .title{
+        font-size: 33px;
+    }
 }
