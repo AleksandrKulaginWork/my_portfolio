@@ -11,7 +11,7 @@ import './Footer.css'
 const Footer = () => {
 
     return (
-        <Navbar collapseOnSelect expand="lg" className="navbar-footer" variant="dark">
+        <Navbar collapseOnSelect expand="lg" className="navbar-footer mt-5" variant="dark">
             <Container>
                 <Navbar.Brand><Nav.Link href="home">
                     <NavLink to='/'><img src={LogoHome} alt="LogoHome" /></NavLink>

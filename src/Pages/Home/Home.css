@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
-/* .home{
 
-} */
 
 .home-text{
     font-family: "Poppins", sans-serif;
     font-weight: 700;
-    font-size: 3.625rem;
-    /* font-size: 2.5vmax; */
+    /* font-size: 3.625rem; */
+    font-size: 3vmax;
     line-height: 1.206;
     color: #42446e;
     letter-spacing: -1px;
@@ -26,6 +24,7 @@
 
 .home-user{
     max-width: 60%;
+    min-width: 250px;
 }
 
 /* .user-border{
