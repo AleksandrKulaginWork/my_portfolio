@@ -1,4 +1,4 @@
-import { Container, Row, Col } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import Whatsapp from '../../images/contacts_page/Icon_whatsapp.svg'
 import Viber from '../../images/contacts_page/Icon_viber.svg'
 import Telegram from '../../images/contacts_page/Icon_telegram.svg'
@@ -10,7 +10,7 @@ import './Contacts.css'
 
 const Contacts = () => {
     return (
-        <Container className="contacts pt-lg-5 pb-lg-5">
+        <div className="contacts pt-lg-5 pb-lg-5">
             <Row className="text-center mb-5">
                 <Col lg={12}>
                     <p className="title mb-0">For any questions please mail us:</p>
@@ -42,7 +42,7 @@ const Contacts = () => {
                     <p className="contacts__text mb-0">+ 373 (699) 471-99</p>
                 </Col>
             </Row>
-        </Container>
+        </div>
     );
 }
 
